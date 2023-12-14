@@ -4,16 +4,17 @@
 \usetikzlibrary{chains,scopes,positioning,backgrounds,shapes,fit,shadows,calc,arrows.meta}
 \usepackage{fontspec}
 
-\setsansfont{Sinter}
+\setsansfont{Sinter-Bold}
+\setmainfont{Sinter-Regular}
 
 \definecolor{ACSGreen}{RGB}{157,226,0}
 \definecolor{ACSBlack}{RGB}{47,47,47}
 
 \begin{document}
     \begin{tikzpicture}
-        \filldraw[color=white, opacity=0] (-15, 15) -- (15, 15) -- (15, -15) -- (-15, -15);
+        \filldraw[color=white, opacity=1] (-15, 15) -- (15, 15) -- (15, -15) -- (-15, -15);
         \input{acs_origin_logo.tex}
         % Text - below
-        \node[font=\fontsize{50}{50}\selectfont] (nametext) at (0, -10) {\sffamily \textcolor{ACSGreen}{A}ssociation of  \textcolor{ACSGreen}{Computer S}cience};
+        \node[font=\fontsize{50}{50}\selectfont] (nametext) at (0, -10) {\textcolor{ACSGreen}{A}ssociation of  \textcolor{ACSGreen}{Computer S}cience};
     \end{tikzpicture}
 \end{document}

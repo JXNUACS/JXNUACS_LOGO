@@ -6,6 +6,7 @@
 \usepackage{fontspec}
 
 \setsansfont{Sinter-Bold}
+\setmainfont{Sinter-Regular}
 \setCJKmainfont{Sinter-Regular}
 
 \definecolor{ACSGreen}{RGB}{157,226,0}
@@ -17,10 +18,11 @@
         \input{acs_origin_logo.tex}
         % Text - below
         % \node[font=\fontsize{50}{50}\selectfont] (nametext) at (0, -10) {\sffamily \textcolor{ACSGreen}{A}ssociation of  \textcolor{ACSGreen}{Computer S}cience};
+        % Text - right
         \draw[line width=6pt, color=black] (18, -2.5) -- (72, -2.5);
         \draw[line width=6pt, color=black] (18, -2) -- (72, -2);
         \node[font=\fontsize{101}{225}\selectfont] (chname) at (45, 10.5) {江西师范大学\ 计算机信息工程学院};
         \node[font=\fontsize{225}{225}\selectfont] (chname) at (45, 3.5) {计算机科学协会};
-        \node[font=\fontsize{100}{100}\selectfont] (nametext) at (45, -6) {\sffamily \textcolor{ACSGreen}{A}ssociation of  \textcolor{ACSGreen}{Computer S}cience};
+        \node[font=\fontsize{100}{100}\selectfont] (nametext) at (45, -6) {\textcolor{ACSGreen}{A}ssociation of  \textcolor{ACSGreen}{Computer S}cience};
     \end{tikzpicture}
 \end{document}
