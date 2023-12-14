@@ -1,0 +1,43 @@
+% Panda head - eyes
+\filldraw[color=ACSBlack, rotate=60, opacity=1] (4, 5.9) ellipse (3 and 2.2);
+\filldraw[color=ACSBlack, rotate=120, opacity=1] (4 , -5.9) ellipse (3 and 2.2);
+\filldraw[color=white, rotate=60, opacity=1] (4.35 , 5.2) ellipse (1.5 and 1.25);
+\filldraw[color=white, rotate=120, opacity=1] (4.35 , -5.2) ellipse (1.5 and 1.25);
+\filldraw[color=ACSBlack, opacity=1] (-2.1 , 6.55) circle (0.82);
+\filldraw[color=ACSBlack, opacity=1] (2.1 , 6.55) circle (0.82);
+\filldraw[color=white, opacity=1] (-1.69 , 6.5) circle (0.13);
+\filldraw[color=white, opacity=1] (1.69 , 6.5) circle (0.13);
+\filldraw[color=white, rotate=45, opacity=1] (2.4, 6.2) ellipse (0.25 and 0.18);
+\filldraw[color=white, rotate=-45, opacity=1] (-2.4, 6.2) ellipse (0.25 and 0.18);
+
+% Panda head - round
+%% Main circle
+\draw[line width=5pt, draw=ACSBlack, opacity=1, smooth] (-6.6, 3.8) .. controls (-7.4,6) and (-4.9,9.5) .. (-1.5,10.73) .. controls (-1.41, 10.78) .. (-1.38, 10.9);
+\draw[line width=5pt, draw=ACSBlack, opacity=1, smooth] (6.6, 3.6) .. controls (7.4,6) and (4.9,9.5) .. (1.39,10.7);
+
+%% fair circle
+\draw[line width=5pt, draw=ACSBlack, opacity=1] (-1.45,10.75) .. controls (-1.03, 11.6) and (-1.07, 11.8) .. (-0.65, 11.2) .. controls (-0.5, 11) and (-0.45, 11.2) .. (-0.5, 11.2) .. controls (-0.7, 12.6) and (-0.7, 11.4) .. (1.4,10.7);
+
+%% Panda ear
+\filldraw[color=ACSBlack, rotate=45, opacity=1] (1, 9.3) .. controls (1.9, 11.2) and (5.2, 12.1) .. (5.8, 8.9) .. controls (3.4, 9.6) .. (1, 9.3);
+\filldraw[color=ACSBlack, rotate=-45, opacity=1] (-1, 9.3) .. controls (-1.9, 11.2) and (-5.2, 12.1) .. (-5.8, 8.9) .. controls (-3.4, 9.6) and (-3.35, 9.5) .. (-1, 9.3);
+
+% ACS Circle
+\filldraw[color=ACSGreen, opacity=1] (-8.3, -1.7) circle (5.65);
+\node[font=\fontsize{160}{160}\selectfont, color=white] at (-8.3, -1.7) {\sffamily \textbf A};
+\filldraw[color=ACSBlack, opacity=1] (0, -1.7) circle (5.65);
+\node[font=\fontsize{160}{160}\selectfont, color=white] at (0, -1.7) {\sffamily \textbf C};
+\filldraw[color=ACSGreen, opacity=1] (8.3, -1.7) circle (5.65);
+\node[font=\fontsize{160}{160}\selectfont, color=white] at (8.3, -1.7) {\sffamily \textbf S};
+% Panda hand
+\filldraw[color=ACSBlack, opacity=1] (-6.2, 2.1) ellipse (2.2 and 1.7);
+\filldraw[color=ACSBlack, opacity=1] (6.2, 2.1) ellipse (2.2 and 1.7);
+
+% Text (disabled here)
+% \node[font=\fontsize{50}{50}\selectfont] (nametext) at (0, -10) {\sffamily \textcolor{ACSGreen}{A}ssociation of  \textcolor{ACSGreen}{Computer S}cience};
+
+% Tools (shouldn't be visible in official building!)
+%\draw[->](-10,0)--(10,0) node[right]{x};
+%\draw[->](0,-10)--(0,10) node[above]{y};
+%\draw[->, rotate=45](-20,0)--(20,0) node[right]{x};
+%\draw[->, rotate=45](0,-20)--(0,20) node[above]{y};
