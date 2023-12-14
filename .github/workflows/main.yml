@@ -15,8 +15,8 @@ jobs:
             acs_horizon_logo.tex
           latexmk_use_xelatex: true
           latexmk_shell_escape: true
-        extra_fonts: |
-          ./fonts/*.otf
+          extra_fonts: |
+            ./fonts/*.otf
       
       - name: Convert PDF to SVG
         run: |
