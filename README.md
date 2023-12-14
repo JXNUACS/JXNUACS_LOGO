@@ -6,6 +6,8 @@ This repository is for the official organization logo of Jiangxi Normal Universi
 >
 > Redraw by Weiqi Yan(2023.12.13).
 
+[![Build ACS LOGO and Release](https://github.com/JXNUACS/JXNUACS_LOGO/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/JXNUACS/JXNUACS_LOGO/actions/workflows/main.yml)
+
 # I. Usage specifications
 
 1. The ownership of this logo belongs to Jiangxi Normal University Association of Computer Science.
