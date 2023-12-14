@@ -1,8 +1,5 @@
 name: Build ACS LOGO and Release
-on:
-  label:
-      types:
-        - created
+on: ["workflow_dispatch"]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
