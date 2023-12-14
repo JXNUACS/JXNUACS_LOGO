@@ -10,9 +10,9 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: 
-            - acs_std_logo.tex
-            - acs_horizon_logo.tex
+          root_file: |
+            acs_std_logo.tex
+            acs_horizon_logo.tex
           latexmk_use_xelatex: true
           latexmk_shell_escape: true
         extra_fonts: |
@@ -28,16 +28,16 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: PDF
-          path: 
-            - acs_std_logo.pdf
-            - acs_horizon_logo.pdf
+          path: |
+            acs_std_logo.pdf
+            acs_horizon_logo.pdf
 
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: 
-            - acs_std_logo.pdf
-            - acs_horizon_logo.pdf
-            - acs_std_logo.svg
-            - acs_horizon_logo.svg
+          files: |
+            acs_std_logo.pdf
+            acs_horizon_logo.pdf
+            acs_std_logo.svg
+            acs_horizon_logo.svg
