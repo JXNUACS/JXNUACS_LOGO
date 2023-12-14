@@ -1,5 +1,8 @@
 # JXNU ACS LOGO(Official)
 
+![version.1](https://github.com/JXNUACS/JXNUACS_LOGO/assets/51751659/dc3036f7-5db9-4f23-bb1e-d9deac18a892)
+
+
 This repository is for the official organization logo of Jiangxi Normal University Association of Computer Science(JXNU)
 
 > Ownership: JXNUACS
