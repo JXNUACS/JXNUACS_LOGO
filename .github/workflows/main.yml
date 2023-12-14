@@ -20,7 +20,7 @@ jobs:
       
       - name: Convert PDF to SVG
         run: |
-          apt install -y pdf2svg
+          sudo apt install -y pdf2svg
           pdf2svg acs_std_logo.pdf acs_std_logo.svg
           pdf2svg acs_horizon_logo.pdf acs_horizon_logo.svg
 
