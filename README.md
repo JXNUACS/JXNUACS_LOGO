@@ -1,6 +1,8 @@
 # JXNU ACS LOGO(Official)
 
-![version.1](https://github.com/JXNUACS/JXNUACS_LOGO/assets/51751659/dc3036f7-5db9-4f23-bb1e-d9deac18a892)
+“ Happy 10-th anniversary!
+
+![banner](https://github.com/JXNUACS/JXNUACS_LOGO/assets/51751659/f38f59db-7e5e-40f8-a000-5c19740aef59)
 
 
 This repository is for the official organization logo of Jiangxi Normal University Association of Computer Science(JXNU)
@@ -24,4 +26,6 @@ This repository is for the official organization logo of Jiangxi Normal Universi
 <img src="https://raw.githubusercontent.com/creativecommons/cc-assets/376ad270952f9c34542ffc3d4a19d689fa2a7586/license_badges/big/by_nc_sa.svg" align='left'/>
 
 Creative Commons - Attribution-Noncommercial-Share Alike
+
+
 
